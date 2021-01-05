@@ -59,8 +59,13 @@ h1{
     grid-template-columns: 1fr;
     row-gap: 20px;
     overflow-y: scroll;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
+
+.cards-list{
+    overflow-y: scroll;
+}
+
 ::-webkit-scrollbar {
     display: none;
   }

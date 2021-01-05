@@ -4,7 +4,7 @@ export default function TaskCard({taskTitle,taskDescription}) {
     console.log(this);
     return (
         <div className="card">
-            <h3 className="task-title">{taskTitle}</h3>
+            <h2 className="task-title">{taskTitle}</h2>
             <p className="task-description">{taskDescription}</p>
             <div>avatar{/*I say put this in a diffrent componant so you can reuse it */}</div>
         </div>
