@@ -1,5 +1,6 @@
 import React from 'react';
 import { cardPropsTypes } from '../../types/task-cards-props';
+import './cards-style.css';
 export default function TaskCard({ taskTitle, taskDescription }: cardPropsTypes) {
 	return (
 		<div className="card">

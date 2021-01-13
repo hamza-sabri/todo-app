@@ -1,6 +1,7 @@
 import React from 'react';
 import TaskCard from './task-card';
 import { columnPropsTypes } from '../../types/column-props';
+import './cards-style.css';
 
 export default function StatusColumns({ listTitle }: columnPropsTypes) {
 	return (

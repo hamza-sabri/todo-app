@@ -1,0 +1,21 @@
+.fab {
+	grid-area: fab;
+	width: 48px;
+	height: 48px;
+	background: rgb(3, 192, 255);
+	color: white;
+	border-radius: 50%;
+	position: relative;
+	top: 85vh;
+	right: 20%;
+	cursor: pointer;
+}
+
+.fab span {
+	font-size: 35px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	position: relative;
+	top: -3px;
+	left: 12px;
+}

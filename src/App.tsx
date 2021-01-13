@@ -1,6 +1,6 @@
 import React from 'react';
-import NavBar from './components/nav-bar';
-import SideBar from './components/side-bar';
+import NavBar from './components/bars/nav-bar';
+import SideBar from './components/bars/side-bar';
 import CardsContainer from './components/cards/cards-container';
 
 function App() {

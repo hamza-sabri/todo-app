@@ -1,0 +1,36 @@
+.card {
+	width: 90%;
+	height: 10rem;
+	border-radius: 5px;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin-bottom: 0;
+	transition: 0.3s;
+	margin-bottom: 2rem;
+}
+
+.card:hover {
+	cursor: pointer;
+	width: 95%;
+	height: 12rem;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cards-list {
+	overflow-y: scroll;
+}
+
+.status-column {
+	margin-left: 3rem;
+	display: grid;
+	grid-template-columns: 1fr;
+	row-gap: 20px;
+	overflow-y: scroll;
+	margin-bottom: 15px;
+}
+
+/* here would be the interar style of the card */
+
+h3 {
+	margin: 0;
+}
