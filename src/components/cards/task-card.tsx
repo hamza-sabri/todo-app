@@ -6,7 +6,12 @@ export default function TaskCard({ taskTitle, taskDescription }: cardPropsTypes)
 		<div className="card">
 			<h3 className="task-title">{taskTitle}</h3>
 			<p className="task-description">{taskDescription}</p>
-			<div>avatar{/*I say put this in a diffrent componant so you can reuse it */}</div>
+			<div className="avatar">avatar{/*I say put this in a diffrent componant so you can reuse it*/}</div>
+			<div className="actions-area">
+				<div className="delete-button" />
+				<div className="edit-button" />
+			</div>
+			{/* make the card dragabble and add some animation for it */}
 		</div>
 	);
 }

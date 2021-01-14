@@ -8,7 +8,14 @@ export default function StatusColumns({ listTitle }: columnPropsTypes) {
 		<div className="status-column">
 			<h2>{listTitle}</h2>
 			<div className="cards-list">
-				<TaskCard taskTitle="task1" taskDescription="I should do something" />
+				{/** map the comming list into cards */}
+				<TaskCard taskTitle="task1" taskDescription="I should do something and a lot of text here just to see how it would look I don't know what the hell I want to do" />
+				<TaskCard taskTitle="task1" taskDescription="I should do something and a lot of text here just to see how it would look I don't know what the hell I want to do" />
+				<TaskCard taskTitle="task1" taskDescription="I should do something and a lot of text here just to see how it would look I don't know what the hell I want to do" />
+				<TaskCard taskTitle="task1" taskDescription="I should do something and a lot of text here just to see how it would look I don't know what the hell I want to do" />
+				<TaskCard taskTitle="task1" taskDescription="I should do something and a lot of text here just to see how it would look I don't know what the hell I want to do" />
+				<TaskCard taskTitle="task1" taskDescription="I should do something and a lot of text here just to see how it would look I don't know what the hell I want to do" />
+				<TaskCard taskTitle="task1" taskDescription="I should do something and a lot of text here just to see how it would look I don't know what the hell I want to do" />
 				<TaskCard taskTitle="task1" taskDescription="I should do something" />
 				<TaskCard taskTitle="task1" taskDescription="I should do something" />
 				<TaskCard taskTitle="task1" taskDescription="I should do something" />

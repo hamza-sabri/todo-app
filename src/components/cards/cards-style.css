@@ -7,6 +7,10 @@
 	margin-bottom: 0;
 	transition: 0.3s;
 	margin-bottom: 2rem;
+	padding: 10px;
+	display: grid;
+	grid-template-areas: "task-title task-title task-title" "task-description task-description task-description"
+		"task-description task-description task-description" "avatar . actions-area";
 }
 
 .card:hover {
@@ -31,6 +35,35 @@
 
 /* here would be the interar style of the card */
 
-h3 {
-	margin: 0;
+.task-title {
+	grid-area: task-title;
+	margin: auto;
+}
+
+.avatar {
+	grid-area: avatar;
+}
+
+.task-description {
+	grid-area: task-description;
+}
+
+.actions-area {
+	grid-area: actions-area;
+}
+
+.edit-button,
+.delete-button {
+	width: 5rem;
+	height: 2rem;
+	background: blue;
+	grid-area: edit-button;
+	margin: 5px;
+	display: inline-block;
+	position: relative;
+}
+
+.delete-button {
+	background: red;
+	grid-area: delete-button;
 }
